@@ -78,7 +78,7 @@ pipeline {
                         echo "=== Generating Maven clean and compile ==="
                         mvn -version
                         java -version
-                        mvn clean package -DskipTests --settings settings.xml
+                        mvn clean package -DskipTests
                     '''
                 }
             }
